@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: orange;
+    height: auto;
+    overflow-x: hidden;
+}
+
+html{
+    height: auto;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#background-img{
+    height: 100%;
+    width: 80%;
+}
+
+nav{
+    height: 90px;
+    background-color: orangered;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrap{
+    flex-basis: 50%;
+}
+
+#recipe-container{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#post-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+#search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav input{
+    padding-left: 7%;
+    margin-left: 5%;
+    width: 50%;
+    height: 35px;
+    letter-spacing: 10px;
+    background-color: orange;
+    border: none;
+    outline: none;
+}
+
+nav input::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: black;
+}
+
+nav button{
+    margin-right: 3%;
+    width: 20%;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#radius-button{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 100%;
+    margin-right: 1%;
+}
+
+main header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 3%;
+}
+
+#coments-area{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: lightgray;
+}
+
+#img-recipe-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63%;
+    width: 95%;
+    border-radius: 50px;
+    margin-bottom: 3%;
+    background-color: lightgray;
+}
+
+#profile-picture{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 100%;
+}
+
+#profile-picture-coments{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    margin-left: 30%;
+    border-radius: 100%;
+}
+
+#coments-input{
+    margin-left: 5%;
+    width: 70%;
+    height: 50%;
+    letter-spacing: 10px;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+}
+
+#coments-input::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 14pt;
+}
+
+#wrap-profilePicture{
+    flex-basis: 10%;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    letter-spacing: 10px;
+    position: absolute;
+}
+
+h2{
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+h3{
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+#wrap-marker{
+    flex-basis: 38%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#marker{
+    width: 50px;
+    height: 50px;
+}
+
+#img-logo{
+    width: 80px;
+    height: 60px;
+    margin-right: 1%;
+}
+
+#img-lupa{
+    width: 25px;
+    height: 25px;
+    padding-left: 3%;
+    position: absolute;
+}
+
+#menu-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}

@@ -1,0 +1,13 @@
+Fontes:
+
+H1: Goblin One
+H2: Gemunu Libre ExtraLight
+H4, P: Frank Ruhl Libre
+
+Cores:
+
+Branco Massam: #FFFFFF
+Laranja Massam 00: #F9A100
+Laranja Massam 01: #F2650C
+Cinza Massam 00: #E7E7E7
+Cinza Massam 01: #C4C4C4

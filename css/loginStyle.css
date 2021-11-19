@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+#img{
+    width: 1900px;
+    height: 950px;
+}
+
+p{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    letter-spacing: 5px;
+    font-size: 24pt;
+}
+
+#parallel-lines{
+    width: 70%;
+    height: 25px;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+}
+
+#logo{
+    width: 50%;
+}
+
+button{
+    width: 15%;
+    height: 30px;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    letter-spacing: 3px;
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+#buttons-container{
+    width: 100%;
+}
+
+#logo-buttons{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    letter-spacing: 10px;
+    color: black;
+}
+
+#login-container{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+}
